@@ -1,0 +1,92 @@
+/*-- Color --*/ /* color can be changed */
+.TFTBody {
+	background: #1434A4;
+}
+.TFTColor {
+	color: #E1C16E;
+}
+
+/*-- Intro --*/ /*font family can be changed to make it similar */
+.TFTLogo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.intro1 {
+	text-align: center;
+	font-size: 48px;
+	font-family: verdana, arial, sans-serif;
+	margin-bottom:0;
+}
+.intro2 {
+	text-align: center;
+	font-family: verdana, arial, sans-serif;
+	margin-top: 0;
+}
+
+/*-- Image Gallery --*/
+.imgset {
+	width: 220px;
+	height: 200px;
+	border: 2px solid black;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+	float: left;
+}
+.imgset img{
+	margin: 5px;
+	height: 130px;
+	width: 200px;
+}
+.imgset:hover {
+	background-color: lightblue;
+}
+	
+.imgdesc {
+	text-align: center;
+	width: 120px;
+	margin: 5px;
+}
+/*-- ChampionPics & TABLE--*/
+.champions {
+	height:75px;
+	width:75px;
+	border: 2px solid #FFFFFF;
+}
+.COpics, .champcost, .Ccost, .InfoCost{
+	list-style: none;
+	padding: 5px;
+	margin: 10px;
+	text-align: center;
+}
+.champcost, .Ccost, .InfoCost {
+	border: 3px solid;
+	border-color: black;
+}
+/*-- Table for traits --*/
+.buff ,.description , .Class, .Origin{
+	list-style: none;
+}
+.Class, .Origin {
+	font-size: 36px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+/*-- streamers--*/
+.streamerlink {
+	text-decoration: none;
+	font-family: verdana, arial, sans-serif;
+	font-size: 24px;
+	color: #E1C16E;
+}
+.streamerlist {
+	font-family: verdana, arial, sans-serif;
+	font-size: 24px;
+}
+.streamers {
+	font-family: verdana, arial, sans-serif;
+	font-size: 24px;
+}

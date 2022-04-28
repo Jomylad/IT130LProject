@@ -1,0 +1,139 @@
+/* --NavBar Styles --*/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.navbar {
+	background-color: black;
+	text-align: center;
+}
+.navbar ul {
+	display: inline-flex;
+	list-style: none;
+	color: white;
+}
+.navbar ul li {
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+}
+.navbar ul li a {
+	text-decoration: none;
+	color:white;
+	font-weight: bold;
+	font-family: verdana, arial, sans-serif;;
+}
+.active,.navbar ul li:hover {
+	background: #986868;
+	border-radius: 3px;
+	transition: 0.4s;
+}
+.containernav {
+	width:100%;
+	background-color: black;
+	margin: 0;
+	padding: 0;
+}
+.navlogo img{
+	margin: 1px 0 0 25px;
+	display: inline-block;
+	position: absolute;
+	height: 75px;
+	width: 125px;
+}
+/*-- dropdown --*/
+.submenu {
+	display: none;
+	z-index: 100;
+}
+.navbar ul li:hover .submenu {
+	display: block;
+	position: absolute;
+	background: black;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.navbar ul li:hover .submenu ul {
+	display: block;
+	margin: 10px;
+}
+.navbar ul li:hover .submenu ul li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted black;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.navbar ul li:hover .submenu ul li:last-child {
+	border-bottom: none;
+}
+.navbar ul li:hover .submenu ul li:hover {
+	background: #986868;
+}
+/*-- League --*/
+.navbarL{
+	background-color: black;
+	text-align: center;
+}
+.navbarL ul {
+	display: inline-flex;
+	list-style: none;
+	color: white;
+	margin: 15px 10px 10px 0px;
+}
+.navbarL ul li {
+	width: 120px;
+	margin: 10px 10px 10px 20px;
+	padding: 15px;
+}
+.navbarL ul li a {
+	text-decoration: none;
+	color:white;
+	font-weight: bold;
+	font-family: verdana, arial, sans-serif;;
+}
+.active,.navbarL ul li:hover {
+	background: #986868;
+	border-radius: 3px;
+	transition: 0.4s;
+}
+.navlogoL img{
+	margin: 10px 0 0 25px;
+	display: inline-block;
+	position: absolute;
+	height: 75px;
+	width: 125px;
+	z-index: 100;
+}
+/*-- dropdown --*/
+.submenuL {
+	display: none;
+	z-index: 100;
+}
+.navbarL ul li:hover .submenuL {
+	display: block;
+	position: absolute;
+	background: black;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.navbarL ul li:hover .submenuL ul {
+	display: block;
+	margin: 10px;
+}
+.navbarL ul li:hover .submenuL ul li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted black;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.navbarL ul li:hover .submenuL ul li:last-child {
+	border-bottom: none;
+}
+.navbarL ul li:hover .submenuL ul li:hover {
+	background: #986868;
+}

@@ -1,0 +1,124 @@
+
+	body {
+    overflow-x: hidden;
+		}
+	.para
+	{
+	font-family: ProximaNova-Regular;
+    font-size: 16px;
+    line-height: 1.7em;
+	}
+	.abovebg
+	{
+	position: absolute;
+	background: center center / contain no-repeat;
+	}
+	.videoexterior {
+    position: relative;
+	margin-left:11%;
+    width: 613.8px;
+    max-width: 77.3%;
+    border: 4px solid rgb(234, 253, 0);
+    box-shadow: rgb(234 253 0) 8px 8px;
+    color: rgb(255, 255, 255);
+    transition: all 0.2s ease-out 0s;
+    margin-bottom: 24px;
+	}
+	.videoexterior-sm{
+	display: block;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+	}
+	 .main-content{
+	 font-family: ProximaNova-Bold;
+    position: relative;
+    width: 100%;
+    max-width: 144px;
+    margin: 0px auto;
+	padding: 0px 105px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+	.missile {
+    max-width: 700px;
+    width: 41%;
+    padding-top: 17%;
+    right: 63%;
+    top: 37%;
+	}
+	.zigg {
+    max-width: 700px;
+    width: 30%;
+    padding-top: 26%;
+    left: 55%;
+	}
+	.minibomb{
+	width: 100px;
+    height: 100px;
+    background: center center / contain no-repeat;
+    display: inline-block;
+	}
+	.bomba {
+    max-width: 700px;
+    width: 31%;
+    padding-top: 26%;
+    left: 75%;
+    top: 20%;
+	}
+	.heim {
+    max-width: 700px;
+    width: 31%;
+    padding-top: 20%;
+    right: 60%;
+    top: 32%;
+	}
+	.background2{
+	width: 100%;height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	display: flex; 
+	justify-content: center;
+	padding-bottom: 178px;
+	}
+	.bgimage {
+    position: absolute;
+	padding-top: 500px;
+    top: 58px;
+    left: 0px;
+    width: 100%;
+    height: 110%;
+    background: center center / cover no-repeat;
+	margin-top: 200px;
+	}
+	.banner{
+		text-align: center; background: rgb(104, 15, 28); padding:3px; position:relative;
+	}
+	.banner-text{
+		font-family: ProximaNova-Bold; 
+		font-size: 0.875rem; margin: 0px; 
+		padding: 0.938rem 1rem 1rem; 
+		text-align: center; 
+		text-transform: uppercase;
+	}
+	.banner-text-color{
+		color:rgb(234, 253, 0) ; 
+		font-size: 17px;
+	}
+	.logo{
+		width:303px; 
+		max-width: 480px;
+	}
+	.description{
+		text-align:center; background: radial-gradient(closest-side, rgba(255, 234, 192, 0.8) 50%, transparent 100%); color: rgb(104, 15, 28); width:600px; height:245.400px;
+	}
+	.text-first{
+		font-size: 20px; margin-bottom: 26px; letter-spacing: .15em; text-transform: uppercase;
+	}
+	.text-second{
+		margin-bottom: 16px; max-width: 600px; font-size: 16px; line-height: 1.7em;
+	}
+	

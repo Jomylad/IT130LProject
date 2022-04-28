@@ -1,0 +1,107 @@
+body {
+    background-color: #4a6b80;
+}
+
+/*COLOR OF TITLE HEAD AND PARAGRAPH WORDING, REMOVE OR CHANGE IF NECESSARY*/
+h1, p, h2, h3{
+    color: aliceblue;
+    font-family: verdana, arial, sans-serif;
+}
+
+a {
+    color: aliceblue;
+    font-size: 15px;
+}
+
+p {
+    font-size: 20px;
+}
+
+img.logo {
+    height: 300px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    color: aliceblue;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+}
+
+img.introGal {
+    width: 100%
+}
+
+.container {
+    margin-left: 175px;
+}
+
+.clear-left {
+    clear: left;
+}
+
+/*CENTERS THE IMAGE CAROUSEL AND KEEPS IT AT A MANAGEBLE SIZE, CHANGE WITH CAUTION*/
+.carousel-container {
+    width: 40%;
+    height: 40%;
+    margin: auto;
+}
+
+.leaguelist ul {
+    color: aliceblue;
+    font-family: verdana, arial, sans-serif;
+    list-style-position: inside;
+}
+
+hr.temp {
+    height: 5px;
+    background-color: black;
+    color: black;
+}
+
+.dropbtn {
+    background-color: #33369a;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
+    z-index: 1;
+  }
+  
+  .dropdown-content p {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3a399e;
+  }
